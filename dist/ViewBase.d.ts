@@ -1,6 +1,5 @@
-import { ViewModelBase } from './index';
 export declare class ViewBase {
-    Context: ViewModelBase;
+    Context: any;
     Root: HTMLElement;
     constructor(root: HTMLElement);
 }
