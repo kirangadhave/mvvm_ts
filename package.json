@@ -1,0 +1,20 @@
+{
+  "name": "@kirangadhave/mvvm_ts",
+  "version": "1.0.1",
+  "description": "Lightweight MVVM framework for ts/js projects. Internal use",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kirangadhave/mvvm_ts.git"
+  },
+  "author": "Kiran Gadhave",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kirangadhave/mvvm_ts/issues"
+  },
+  "homepage": "https://github.com/kirangadhave/mvvm_ts#readme",
+  "devDependencies": {}
+}
