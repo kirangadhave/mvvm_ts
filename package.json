@@ -1,6 +1,6 @@
 {
   "name": "@kirangadhave/mvvm_ts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Lightweight MVVM framework for ts/js projects. Internal use",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,10 @@
     "url": "https://github.com/kirangadhave/mvvm_ts/issues"
   },
   "homepage": "https://github.com/kirangadhave/mvvm_ts#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/jquery": "^3.3.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
 }

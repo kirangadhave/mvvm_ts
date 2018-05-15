@@ -1,5 +1,3 @@
-import {ViewModelBase} from './index';
-
 export class ViewBase {
     Context : any;
     Root : HTMLElement;
