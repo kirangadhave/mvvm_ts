@@ -1,6 +1,6 @@
 {
   "name": "@kirangadhave/mvvm_ts",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Lightweight MVVM framework for ts/js projects. Internal use",
   "main": "index.js",
   "scripts": {
