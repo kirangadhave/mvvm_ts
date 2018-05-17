@@ -8,5 +8,5 @@ export class ViewBase {
 
   create() {}
 
-  update() {}
+  update(event?: any, param?: any) {}
 }

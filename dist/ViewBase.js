@@ -5,7 +5,7 @@ var ViewBase = /** @class */ (function () {
         this.Root = root;
     }
     ViewBase.prototype.create = function () { };
-    ViewBase.prototype.update = function () { };
+    ViewBase.prototype.update = function (event, param) { };
     return ViewBase;
 }());
 exports.ViewBase = ViewBase;

@@ -3,5 +3,5 @@ export declare class ViewBase {
     Root: HTMLElement;
     constructor(root: HTMLElement);
     create(): void;
-    update(): void;
+    update(event?: any, param?: any): void;
 }
