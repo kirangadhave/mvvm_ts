@@ -1,6 +1,8 @@
 import { ViewBase } from './index';
-import { Eventifier } from './Eventifier';
-export declare class ViewModelBase extends Eventifier {
+export declare class ViewModelBase {
     View: ViewBase;
     constructor(view: ViewBase);
+    on(event: any, handler: any): void;
+    trigger(event: any, params: any): void;
+    off(event: any): void;
 }
