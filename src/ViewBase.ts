@@ -1,8 +1,12 @@
 export class ViewBase {
-    Context : any;
-    Root : HTMLElement;
+  Context: any;
+  Root: HTMLElement;
 
-    constructor(root : HTMLElement) {
-        this.Root = root;
-    }
+  constructor(root: HTMLElement) {
+    this.Root = root;
+  }
+
+  create() {}
+
+  update() {}
 }
